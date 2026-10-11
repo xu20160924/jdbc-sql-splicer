@@ -1,0 +1,23 @@
+<idea-plugin>
+    <id>com.sqlsplice.jdbc</id>
+    <name>JDBC SQL Splicer</name>
+    <vendor email="support@example.invalid">JDBC SQL Splicer</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.xdebugger</depends>
+    <depends>com.intellij.modules.java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <notificationGroup id="JDBC SQL Splicer" displayType="BALLOON" isLogByDefault="false"/>
+    </extensions>
+
+    <actions>
+        <action id="com.sqlsplice.JdbcSqlSpliceAction"
+                class="com.sqlsplice.JdbcSqlSpliceAction"
+                text="Splice JDBC SQL..."
+                description="Splice JDBC SQL and arguments in the current debug context">
+            <add-to-group group-id="XDebugger.ValueGroup" anchor="first"/>
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
