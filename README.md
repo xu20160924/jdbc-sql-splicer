@@ -9,6 +9,13 @@
 3. 在弹窗中确认 SQL 与 Args 变量；`sql`、`args`、`param` 等名称会优先默认选中。
 4. 点击“拼接并复制”，完整 SQL 会进入系统剪贴板，并显示 IDEA 通知。
 
+<img width="1484" height="852" alt="f38756a72152db744b0b997b488da094" src="https://github.com/user-attachments/assets/f30f005b-09bc-4453-a4e7-ca89668f2e78" />
+
+<img width="1330" height="568" alt="95695d0a79f9709602a71b15f83460db" src="https://github.com/user-attachments/assets/8c926169-7c72-44bb-b22c-29e5057d0f94" />
+
+
+
+
 插件仅展示当前 Java 栈帧中下列候选变量：
 
 | 下拉框 | 筛选条件 |
